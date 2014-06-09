@@ -1,11 +1,25 @@
 package tubesRkppl.kelas;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
-
+/**
+ * @author 
+ * Dianda Kacinta
+ * 113040249
+ */
 public class E {
 
-	List<String> dataList = new List<String>();
+	//Membuat konstruktor class
+	public E() {
+		// TODO Auto-generated constructor stub
+		System.out.println("Ctor di kelas E");
+	}
+	
+	//Membuat function contains
+	public boolean contains(String n){
+		return false;
+	}
+	
+	//Membuat function toString
+	public String toString(){
+		return "toString di kelas E";
+	}
 }
