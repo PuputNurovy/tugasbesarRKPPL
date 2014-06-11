@@ -1,5 +1,11 @@
 package tubesRkppl.itface;
 
+/**
+ * @author 
+ * Puput Nurovy
+ * 113040155
+ */ 
+
 public interface AddAndSubInterface {
 
 	public int add(int n1, int n2);
