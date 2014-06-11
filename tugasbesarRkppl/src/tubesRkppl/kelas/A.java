@@ -16,13 +16,13 @@ public class A implements AddAndSubInterface{
 	
 	public int add(int n1, int n2){
 
-		// fungsi untuk mengembalikan pertambahan 2 nilai
+		//Function bawaan class interface AddAndSubInterface
 		return n1+n2;
 	}
 	
 	public int sub(int n1, int n2){
 
-		// fungsi untuk mengembalikan pengurangan 2 nilai
+		//Function bawaan class interface AddAndSubInterface
 		return n1-n2;
 	}
 }
