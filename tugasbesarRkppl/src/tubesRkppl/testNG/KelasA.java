@@ -12,7 +12,7 @@ public class KelasA {
 
 	@Test
 	public void test1() {
-		Assert.assertNotSame(a.add(1, 1), 3, "seharusnya hasilnya bukan 2");
+		Assert.assertNotSame(a.add(1, 1), 3, "seharusnya hasilnya bukan 3");
 	}
 
 	@Test

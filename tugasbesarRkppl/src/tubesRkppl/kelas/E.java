@@ -1,11 +1,26 @@
 package tubesRkppl.kelas;
 
+import java.awt.List;
+
 /**
  * @author 
  * Dianda Kacinta
  * 113040249
  */
 public class E {
+
+	//Membuat variable dataList
+	List dataList = new List();
+	
+	//Membuat function getDataList untuk mengambil nilai dataList
+	public List getDataList() {
+		return dataList;
+	}
+
+	//Membuat method setDataList untuk setting nilai dataList
+	public void setDataList(List dataList) {
+		this.dataList = dataList;
+	}
 
 	//Membuat konstruktor class
 	public E() {

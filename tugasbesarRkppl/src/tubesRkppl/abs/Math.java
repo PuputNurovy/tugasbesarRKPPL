@@ -12,8 +12,8 @@ public abstract class Math {
 		return n1%n2;
 	}
 	
-	//Membuat function sqrt
-	public double sqrt(double n){
-		return 0;
+	//Membuat function sqrt yang akan mengembalikan nilai akar dari bilangan parameter n
+	public static double sqrt(double n){
+		return Math.sqrt(n);
 	}
 }
