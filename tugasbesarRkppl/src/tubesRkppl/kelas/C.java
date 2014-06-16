@@ -1,11 +1,13 @@
 package tubesRkppl.kelas;
 
+import tubesRkppl.abs.Math;
+
 /**
  * @author 
  * Dianda Kacinta
  * 113040249
  */
-public class C {
+public class C extends Math{
 
 	//Membuat variable class
 	double n1;
@@ -15,6 +17,23 @@ public class C {
 	public C() {
 		// TODO Auto-generated constructor stub
 		System.out.println("Ctor di kelas C");
+		
+		n1 = 2;
+		n2 = 1;
+	}
+
+	//Membuat function mod yang akan mengembalikan nilai mod dari bilangan parameter n1 & n2
+	@Override
+	public int mod(int n1, int n2) {
+		// TODO Auto-generated method stub
+		return n1%n2;
+	}
+
+	//Membuat function sqrt yang akan mengembalikan nilai akar dari bilangan parameter n
+	@Override
+	public double sqrt(double n) {
+		// TODO Auto-generated method stub
+		return java.lang.Math.sqrt(n);
 	}
 	
 	//Membuat function add yang akan mengembalikan hasil penambahan n1 & n2

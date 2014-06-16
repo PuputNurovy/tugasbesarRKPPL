@@ -30,7 +30,20 @@ public class E {
 	
 	//Membuat function contains
 	public boolean contains(String n){
-		return false;
+		int contains = 0;
+		for(int i = 0; i < dataList.getItemCount(); i++){
+			if(dataList.getItem(i).contains(n)){
+				contains += 1;
+			}else{
+				contains += 0;
+			}
+		}
+		
+		if(contains > 0){
+			return true;
+		}else{
+			return false;
+		}
 	}
 	
 	//Membuat function toString
