@@ -11,7 +11,7 @@ import tubesRkppl.itface.AddAndSubInterface;
 public class A implements AddAndSubInterface{
 
 	public A() {
-		System.out.println("Ctor di kelas B");
+		System.out.println("Ctor di kelas A");
 	}
 	
 	public int add(int n1, int n2){

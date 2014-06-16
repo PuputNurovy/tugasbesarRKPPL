@@ -15,6 +15,9 @@ public class C {
 	public C() {
 		// TODO Auto-generated constructor stub
 		System.out.println("Ctor di kelas C");
+		
+		n1 = 2;
+		n2 = 1;
 	}
 	
 	//Membuat function add yang akan mengembalikan hasil penambahan n1 & n2
