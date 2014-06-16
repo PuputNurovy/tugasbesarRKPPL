@@ -28,7 +28,7 @@ public class E {
 		System.out.println("Ctor di kelas E");
 	}
 	
-	//Membuat function contains
+	//Membuat function contains untuk memeriksa apakah suatu kata/kalimat memiliki nilai sama dengan value dataList
 	public boolean contains(String n){
 		int contains = 0;
 		for(int i = 0; i < dataList.getItemCount(); i++){
