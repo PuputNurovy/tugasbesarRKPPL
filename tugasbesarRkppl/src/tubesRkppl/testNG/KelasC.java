@@ -26,25 +26,25 @@ public class KelasC {
 	//TestCase untuk mencocokan hasil function add dengan nilai 3 yg seharusnya muncul
 	@Test
 	public void test1(){
-		Assert.assertEquals(c.add(), 3);
+		Assert.assertEquals(c.add(1,2), 3);
 	}
 
 	//TestCase untuk mencocokan hasil function sub dengan nilai 1 yg seharusnya muncul
 	@Test
 	public void test2(){
-		Assert.assertEquals(c.sub(), 1);
+		Assert.assertEquals(c.sub(2,1), 1);
 	}
 
 	//TestCase untuk mencocokan hasil function mul dengan nilai 2 yg seharusnya muncul
 	@Test
 	public void test3(){
-		Assert.assertEquals(c.mul(), 2.0);
+		Assert.assertEquals(c.mul(1,2), 2.0);
 	}
 
 	//TestCase untuk mencocokan hasil function div dengan nilai 2 yg seharusnya muncul
 	@Test
 	public void test4(){
-		Assert.assertEquals(c.div(), 2.0);
+		Assert.assertEquals(c.div(4,2), 2.0);
 	}
 	
 	//TestCase untuk mencocokan hasil function mod dengan nilai 0 yg seharusnya muncul

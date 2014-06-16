@@ -20,10 +20,10 @@ public class MainApp {
 		C objekC = new C();
 		
 		// melakukan pemanggilan berdasarkan fungsi-fungsi yang ada
-		System.out.println("Hasil Penambahan : "+objekC.add());
-		System.out.println("Hasil Pengurangan : "+objekC.sub());
-		System.out.println("Hasil Perkalian : "+objekC.mul());
-		System.out.println("Hasil Pembagian : "+objekC.div());
+		System.out.println("Hasil Penambahan : "+objekC.add(1,2));
+		System.out.println("Hasil Pengurangan : "+objekC.sub(2,1));
+		System.out.println("Hasil Perkalian : "+objekC.mul(2,2));
+		System.out.println("Hasil Pembagian : "+objekC.div(2,2));
 		System.out.println();
 		
 		// instansiasi dikelas D

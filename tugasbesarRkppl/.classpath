@@ -11,5 +11,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jdk1.7.0_07"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
