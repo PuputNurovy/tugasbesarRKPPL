@@ -5,6 +5,7 @@
     <classes>
       <class name="tubesRkppl.testNG.KelasE">
         <methods>
+          <include name="test2"/>
           <include name="test1"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
