@@ -6,7 +6,11 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
 import tubesRkppl.kelas.D;
-
+/**
+ * @author 
+ * Puput Nurovy
+ * 113040155
+ */
 public class KelasD {
 	D d = new D();
 
@@ -17,7 +21,7 @@ public class KelasD {
 
 	@Test
 	public void test2() {
-		Assert.assertNotSame(d.pow(2, 2), 3, "harusnya hasilnya bukan 4");
+		Assert.assertNotSame(d.pow(2, 2), 900k, "harusnya hasilnya bukan 4");
 	}
 
 	@BeforeTest

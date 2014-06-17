@@ -6,7 +6,11 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
 import tubesRkppl.kelas.A;
-
+/**
+ * @author 
+ * Puput Nurovy
+ * 113040155
+ */
 public class KelasA {
 	A a = new A();
 

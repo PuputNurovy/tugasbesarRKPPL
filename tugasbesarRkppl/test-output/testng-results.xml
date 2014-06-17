@@ -1,71 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="2" passed="0">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69" started-at="2014-06-17T04:52:25Z" finished-at="2014-06-17T04:52:25Z">
+  <suite name="Default suite" duration-ms="75" started-at="2014-06-17T04:55:31Z" finished-at="2014-06-17T04:55:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69" started-at="2014-06-17T04:52:25Z" finished-at="2014-06-17T04:52:25Z">
-      <class name="tubesRkppl.testNG.KelasE">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tubesRkppl.testNG.KelasE@1c935cc]" name="beforeTest" is-config="true" duration-ms="21" started-at="2014-06-17T11:52:25Z" finished-at="2014-06-17T11:52:25Z">
+    <test name="Default test" duration-ms="75" started-at="2014-06-17T04:55:31Z" finished-at="2014-06-17T04:55:31Z">
+      <class name="tubesRkppl.testNG.KelasD">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tubesRkppl.testNG.KelasD@1ffdf86]" name="beforeTest" is-config="true" duration-ms="24" started-at="2014-06-17T11:55:31Z" finished-at="2014-06-17T11:55:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="test1()[pri:0, instance:tubesRkppl.testNG.KelasE@1c935cc]" name="test1" duration-ms="16" started-at="2014-06-17T11:52:25Z" finished-at="2014-06-17T11:52:25Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:286)
-	at org.testng.Assert.assertEquals(Assert.java:296)
-	at tubesRkppl.testNG.KelasE.test1(KelasE.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:tubesRkppl.testNG.KelasD@1ffdf86]" name="test1" duration-ms="16" started-at="2014-06-17T11:55:31Z" finished-at="2014-06-17T11:55:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="FAIL" signature="test2()[pri:0, instance:tubesRkppl.testNG.KelasE@1c935cc]" name="test2" duration-ms="1" started-at="2014-06-17T11:52:25Z" finished-at="2014-06-17T11:52:25Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="FAIL" signature="test2()[pri:0, instance:tubesRkppl.testNG.KelasD@1ffdf86]" name="test2" duration-ms="1" started-at="2014-06-17T11:55:31Z" finished-at="2014-06-17T11:55:31Z">
+          <exception class="java.lang.Error">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[Unresolved compilation problem: 
+	Syntax error on token "k", delete this token
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at tubesRkppl.testNG.KelasE.test2(KelasE.java:45)
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "k", delete this token
+
+	at tubesRkppl.testNG.KelasD.test2(KelasD.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -92,15 +53,15 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:tubesRkppl.testNG.KelasE@1c935cc]" name="afterTest" is-config="true" duration-ms="0" started-at="2014-06-17T11:52:25Z" finished-at="2014-06-17T11:52:25Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tubesRkppl.testNG.KelasD@1ffdf86]" name="afterTest" is-config="true" duration-ms="1" started-at="2014-06-17T11:55:31Z" finished-at="2014-06-17T11:55:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- tubesRkppl.testNG.KelasE -->
+      </class> <!-- tubesRkppl.testNG.KelasD -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
