@@ -42,7 +42,7 @@ public class KelasE {
 	//TestCase untuk menguji hasil true dari function contains
 	@Test
 	public void test2(){
-		Assert.assertTrue(e.contains("RPL"));
+		Assert.assertTrue(e.contains("RPL2013"));
 	}
 	
 	//TestCase setelah testing selesai
