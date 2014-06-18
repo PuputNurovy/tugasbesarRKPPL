@@ -2,31 +2,30 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="75" started-at="2014-06-17T04:55:31Z" finished-at="2014-06-17T04:55:31Z">
+  <suite name="Default suite" duration-ms="187" started-at="2014-06-18T03:47:12Z" finished-at="2014-06-18T03:47:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="75" started-at="2014-06-17T04:55:31Z" finished-at="2014-06-17T04:55:31Z">
-      <class name="tubesRkppl.testNG.KelasD">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tubesRkppl.testNG.KelasD@1ffdf86]" name="beforeTest" is-config="true" duration-ms="24" started-at="2014-06-17T11:55:31Z" finished-at="2014-06-17T11:55:31Z">
+    <test name="Default test" duration-ms="187" started-at="2014-06-18T03:47:12Z" finished-at="2014-06-18T03:47:12Z">
+      <class name="tubesRkppl.testNG.KelasA">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tubesRkppl.testNG.KelasA@1aa261b]" name="beforeTest" is-config="true" duration-ms="75" started-at="2014-06-18T10:47:12Z" finished-at="2014-06-18T10:47:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:tubesRkppl.testNG.KelasD@1ffdf86]" name="test1" duration-ms="16" started-at="2014-06-17T11:55:31Z" finished-at="2014-06-17T11:55:31Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:tubesRkppl.testNG.KelasA@1aa261b]" name="test1" duration-ms="43" started-at="2014-06-18T10:47:12Z" finished-at="2014-06-18T10:47:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="FAIL" signature="test2()[pri:0, instance:tubesRkppl.testNG.KelasD@1ffdf86]" name="test2" duration-ms="1" started-at="2014-06-17T11:55:31Z" finished-at="2014-06-17T11:55:31Z">
-          <exception class="java.lang.Error">
+        <test-method status="FAIL" signature="test2()[pri:0, instance:tubesRkppl.testNG.KelasA@1aa261b]" name="test2" duration-ms="3" started-at="2014-06-18T10:47:12Z" finished-at="2014-06-18T10:47:12Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unresolved compilation problem: 
-	Syntax error on token "k", delete this token
-]]>
+              <![CDATA[seharusnya hasilnya 2 expected [3] but found [2]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-	Syntax error on token "k", delete this token
-
-	at tubesRkppl.testNG.KelasD.test2(KelasD.java:24)
+              <![CDATA[java.lang.AssertionError: seharusnya hasilnya 2 expected [3] but found [2]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotSame(Assert.java:490)
+	at org.testng.Assert.assertSame(Assert.java:441)
+	at tubesRkppl.testNG.KelasA.test2(KelasA.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -53,15 +52,15 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:tubesRkppl.testNG.KelasD@1ffdf86]" name="afterTest" is-config="true" duration-ms="1" started-at="2014-06-17T11:55:31Z" finished-at="2014-06-17T11:55:31Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tubesRkppl.testNG.KelasA@1aa261b]" name="afterTest" is-config="true" duration-ms="0" started-at="2014-06-18T10:47:12Z" finished-at="2014-06-18T10:47:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- tubesRkppl.testNG.KelasD -->
+      </class> <!-- tubesRkppl.testNG.KelasA -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

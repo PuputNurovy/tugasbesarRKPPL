@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tubesRkppl.testNG.KelasD">
+      <class name="tubesRkppl.testNG.KelasA">
         <methods>
           <include name="afterTest"/>
           <include name="test2"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- tubesRkppl.testNG.KelasD -->
+      </class> <!-- tubesRkppl.testNG.KelasA -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
