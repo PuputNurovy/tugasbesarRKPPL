@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="75" started-at="2014-06-18T03:57:42Z" finished-at="2014-06-18T03:57:42Z">
+  <suite name="Default suite" duration-ms="255" started-at="2014-06-18T05:45:10Z" finished-at="2014-06-18T05:45:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="75" started-at="2014-06-18T03:57:42Z" finished-at="2014-06-18T03:57:42Z">
-      <class name="tubesRkppl.testNG.KelasE">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tubesRkppl.testNG.KelasE@1ca6954]" name="beforeTest" is-config="true" duration-ms="30" started-at="2014-06-18T10:57:42Z" finished-at="2014-06-18T10:57:42Z">
+    <test name="Default test" duration-ms="255" started-at="2014-06-18T05:45:10Z" finished-at="2014-06-18T05:45:10Z">
+      <class name="tubesRkppl.testNG.KelasA">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tubesRkppl.testNG.KelasA@11e6e7f]" name="beforeTest" is-config="true" duration-ms="108" started-at="2014-06-18T12:45:10Z" finished-at="2014-06-18T12:45:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:tubesRkppl.testNG.KelasE@1ca6954]" name="test1" duration-ms="15" started-at="2014-06-18T10:57:42Z" finished-at="2014-06-18T10:57:42Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:tubesRkppl.testNG.KelasA@11e6e7f]" name="test1" duration-ms="115" started-at="2014-06-18T12:45:10Z" finished-at="2014-06-18T12:45:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:tubesRkppl.testNG.KelasE@1ca6954]" name="test2" duration-ms="1" started-at="2014-06-18T10:57:42Z" finished-at="2014-06-18T10:57:42Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:tubesRkppl.testNG.KelasA@11e6e7f]" name="test2" duration-ms="1" started-at="2014-06-18T12:45:10Z" finished-at="2014-06-18T12:45:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:tubesRkppl.testNG.KelasE@1ca6954]" name="afterTest" is-config="true" duration-ms="1" started-at="2014-06-18T10:57:42Z" finished-at="2014-06-18T10:57:42Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tubesRkppl.testNG.KelasA@11e6e7f]" name="afterTest" is-config="true" duration-ms="1" started-at="2014-06-18T12:45:10Z" finished-at="2014-06-18T12:45:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- tubesRkppl.testNG.KelasE -->
+      </class> <!-- tubesRkppl.testNG.KelasA -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
