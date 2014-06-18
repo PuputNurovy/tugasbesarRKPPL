@@ -21,7 +21,7 @@ public class KelasA {
 
 	@Test
 	public void test2() {
-		Assert.assertSame(a.add(1, 1), 3, "seharusnya hasilnya 2");
+		Assert.assertSame(a.add(1, 1), 2, "seharusnya hasilnya 2");
 	}
 
 	@BeforeTest

@@ -32,7 +32,7 @@ public class KelasC {
 	//TestCase untuk mencocokan hasil function sub dengan nilai 1 yg seharusnya muncul
 	@Test
 	public void test2(){
-		Assert.assertEquals(c.sub(2,1), 100);
+		Assert.assertEquals(c.sub(2,100), 100);
 	}
 
 	//TestCase untuk mencocokan hasil function mul dengan nilai 2 yg seharusnya muncul
