@@ -36,7 +36,7 @@ public class KelasE {
 	//TestCase untuk mencocokan hasil function contains dengan value true yg seharusnya muncul
 	@Test
 	public void test1(){
-		Assert.assertEquals(e.contains("RPL"), true);
+		Assert.assertEquals(e.contains("RPLa"), true);
 	}
 	
 	//TestCase untuk menguji hasil true dari function contains
