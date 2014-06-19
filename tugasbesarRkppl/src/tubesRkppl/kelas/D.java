@@ -4,8 +4,8 @@ import tubesRkppl.itface.PowInterface;
 
 /**
  * @author 
- * Dianda Kacinta
- * 113040249
+ * Puput Nurovy
+ * 113040155
  */
 public class D implements PowInterface{
 

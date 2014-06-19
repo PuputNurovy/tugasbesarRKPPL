@@ -16,7 +16,7 @@ public class MainApp {
 	//Membuat method main yang akan menjalankan keseluruhan program
 	public static void main(String[] arr) {
 		
-		// instansiasi di kelas A
+		// instansiasi di kelas C
 		C objekC = new C();
 		
 		// melakukan pemanggilan berdasarkan fungsi-fungsi yang ada
@@ -24,6 +24,8 @@ public class MainApp {
 		System.out.println("Hasil Pengurangan : "+objekC.sub(2,1));
 		System.out.println("Hasil Perkalian : "+objekC.mul(2,2));
 		System.out.println("Hasil Pembagian : "+objekC.div(2,2));
+		System.out.println("Hasil Mod : "+objekC.mod(8, 2));
+		System.out.println("Hasil Pembagian : "+objekC.sqrt(9));
 		System.out.println();
 		
 		// instansiasi dikelas D

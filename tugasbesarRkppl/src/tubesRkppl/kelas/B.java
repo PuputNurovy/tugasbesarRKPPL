@@ -28,4 +28,8 @@ public class B implements MulAndDivInterface{
 		return n1/n2;
 	}
 
+	//Membuat function toString
+		public String toString(){
+			return "toString di kelas B";
+		}
 }
