@@ -7,6 +7,12 @@ import org.testng.annotations.AfterTest;
 
 import tubesRkppl.kelas.D;
 
+/**
+ * @author 
+ * Puput Nurovy
+ * 113040155
+ */
+
 public class KelasD {
 	D d = new D();
 
